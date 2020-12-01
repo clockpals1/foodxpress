@@ -22,6 +22,7 @@ class Products {
       // console.log(data);
 
       let products = data.items;
+      
       products = products.map(item => {
         const { title, price } = item.fields;
         const { id } = item.sys;
